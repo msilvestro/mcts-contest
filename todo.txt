@@ -1,0 +1,3 @@
+[ ] Interface to select options.
+[ ] Do something for random outcomes moves and different orders.
+[ ] Draw graphical interface.

@@ -1,0 +1,82 @@
+12.10.15
+- Added move description.
+
+04.10.15
+- Completed the gui. Still to add move description, mouse input and show opponent's moves (last 2 not mandatory).
+
+02.10.15
+- Perfected self simulator.
+
+01.10.15
+- Made a self simulator and improved ds simulator.
+- Added Master Beautiful contest team builder.
+
+30.09.15
+- Made more simulations, started to write self-simulation script so that it matters the DS simulations.
+
+29.09.15
+- Implemented a lot of elements of gui.
+
+25.09.15
+- Changed simulation reward from wins to tothearts to tothearts + tothearts of worst player (better for DS simulations was last one).
+
+23.09.15
+- Improved simulations to make automatically a csv file.
+
+21.09.15
+- Tried to implement random chance in tree, not good results.
+
+18.09.15
+- Added coroutines to make AI thinking in background and to show progress of thinking.
+- Added history display.
+
+17.09.15
+- Added move hint for human player based on MCTS and difficulty choice, and added tree display.
+- Made a command line program to do simulations.
+
+15.09.15
+- Added randomchoices to set already decided random outcomes.
+
+13.09.15
+- Created a function to display the game tree made by the algorithm.
+
+12.09.15
+- Adjusted timing.
+- Commented main.lua for gui.
+- Experimented on how to implement threads.
+
+11.09.15
+- Added move selection for one Pokémon.
+
+10.09.15
+- Made an animated interface, still to be improved.
+
+05.09.15
+- Review some texts in the interface.
+
+02.09.15
+- Started to implement graphical interface.
+
+29.08.15
+- Implemented new move types: 21half.
+- Started to implement contest events and interface (Italian). Good point reached.
+- Implemented combo moves.
+
+28.08.15
+- Implemented new move types: 20betterlast, 80suicide, 44cantmove, 30nextlast, 30noboring.
+- Chosen a moveset for Jigglypuff.
+
+27.08.15
+- Started to think what to do to make a user interface.
+- Rethought the move type identifiers (not number but strings). e.g. In "12effect" +1 is base appeal, -2 is base jam, effect is a synthesis of what it does.
+- Implemented new move types: 10random, 10copy, 30first, 60easy, 30excite, 30prev, 20nervous, 20sametype.
+
+25.08.15+26.08.15
+- Made tests to estimate probability of nervousness and for 10random.
+
+24.08.15
+- Revision of code to add comments.
+
+23.08.15
+- Revision of code for making tests on win rate.
+- Made tests on win rate: MCTS-1000 vs 3 random players (with same moves) wins more than 50%. The algorithm works well!
