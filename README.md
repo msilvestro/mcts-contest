@@ -1,5 +1,7 @@
 # MCTS Contest Thesis Project
 
+![Simulation screenshot](img/tri_contest.png)
+
 My bachelor's thesis, **MCTS e videogiochi: un'applicazione per le Gare Pokémon
 Live**, was an amusing and almost reckless adventure, but in the end the results
 were very interesting and promising. Furthermore, I succeeded in combining
